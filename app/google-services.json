@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "783049728500",
+    "firebase_url": "https://ircstrainings-16c06.firebaseio.com",
+    "project_id": "ircstrainings-16c06",
+    "storage_bucket": "ircstrainings-16c06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783049728500:android:194588e9bfa50eb5",
+        "android_client_info": {
+          "package_name": "com.example.ircstrainings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783049728500-enep115044ma0tq9kpssk5jp6gsdguss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ircstrainings",
+            "certificate_hash": "59b10848064e18143bb822a8f4ca9c9ff495e38d"
+          }
+        },
+        {
+          "client_id": "783049728500-529rkrdfjd7cq16gh0of7acqvnjkbop3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6Y_TcDjT-vbyM6coGaQT7DfZmYsBMH4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783049728500-529rkrdfjd7cq16gh0of7acqvnjkbop3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
