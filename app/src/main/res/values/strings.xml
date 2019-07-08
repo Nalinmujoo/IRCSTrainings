@@ -1,94 +1,99 @@
 <resources>
     <string name="app_name">IRCS Trainings</string>
     <string name="title_activity_data_input">DataInput</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
 
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
-
-        "Bold, graphic, intentional.\n\n"
-
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
-
-        "Motion provides meaning.\n\n"
-
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
-
-        "3D world.\n\n"
-
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
-
-        "Light and shadow.\n\n"
-
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
-    </string>
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
     <string name="action_settings">Settings</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+    <string name="shelter_level_trainings">Name of the Training:</string>
+    <string name="training_date">Training date:</string>
+    <string name="select_date">Select Date</string>
+    <string name="location">Location:</string>
+    <string name="venue">Venue</string>
+    <string name="village">Village</string>
+    <string name="mandal">Mandal</string>
+    <string name="pincode">Pincode</string>
+    <string name="district">District</string>
+    <string name="andhra_pradesh">Andhra Pradesh</string>
+    <string name="guests_attended">Guests Attended</string>
+    <string name="s_no">#</string>
+    <string name="participants">Participants:</string>
+    <string name="m">M:</string>
+    <string name="f">F:</string>
+    <string name="total">Total:</string>
+    <string name="totalh">total</string>
+    <string name="submitted_by">Submitted By:</string>
+    <string name="objective_amp_purpose_of_the_training">Objective &amp; Purpose of the Training: </string>
+    <string name="expected_output_of_the_training">Expected output of the Training: </string>
+    <string name="methodology_used_for_training"><![CDATA[Methodology Used for training: \nTraining is participatory in its approach. The process followed during the training is ‘learning by doing’ method. \nThe following methodologies were also used: ]]></string>
+    <string name="start">From:</string>
+    <string name="end">To:</string>
+    <string name="strengths">Strengths:</string>
+    <string name="what_went_well">What went well</string>
+    <string name="gaps">Gaps:</string>
+    <string name="what_didn_t_go_well">What didn\'t go well</string>
+    <string name="feedback">Feedback:</string>
+    <string name="scope_for_improvement">Scope for improvement</string>
+    <string name="conclusion">Conclusion:</string>
+    <string name="training_name">Training Name</string>
+    <string name="brain_storming">Brain storming</string>
+    <string name="lecture_method">Lecture method</string>
+    <string name="discussions">Discussions</string>
+    <string name="group_exercise">Group Exercise</string>
+    <string name="power_point_presentations">Power Point presentations</string>
+    <string name="demonstration_with_dummy">Demonstration with dummy</string>
+    <string name="participatory_exercises">Participatory exercises</string>
+    <string name="experience_sharing">Experience sharing</string>
+    <string name="show_all">Show All</string>
+    <string name="topics_covered">Topics Covered:</string>
+    <string name="name">Name</string>
+    <string name="sex">Sex</string>
+    <string name="age">Age</string>
+    <string name="designation">Designation</string>
+    <string name="contact_number">Contact No.</string>
+    <string name="training_agenda">Training Agenda:</string>
+    <string name="training_agenda_google_drive_link">Training Agenda Google Drive Link</string>
+    <string name="list_of_participants">List of Participants:</string>
+    <string name="list_of_participants_google_drive_link">List of Participants Google Drive Link</string>
+    <string name="paper_clippings">Paper Clippings:</string>
+    <string name="paper_clippings_google_drive_link">Paper Clippings Google Drive Link</string>
+    <string name="photo_documentation">Photo Documentation:</string>
+    <string name="photo_documentation_google_drive_link">Photo Documentation Google Drive Link</string>
+    <string name="video_dvd">Video DVD:</string>
+    <string name="video_dvd_google_drive_link">Video DVD Google Drive Link</string>
+    <string name="generate_pdf">Generate PDF</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_account_sign_up">Don\'t have account? Sign Up</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string-array name="districts">
+        <item>Srikakulam</item>
+        <item>Vizianagaram</item>
+        <item>Vishakhapatnam</item>
+        <item>East Godavari</item>
+        <item>West Godavari</item>
+        <item>Machilipatnam</item>
+        <item>Guntur</item>
+        <item>Prakasam</item>
+        <item>Nellore</item>
+    </string-array>
 </resources>
