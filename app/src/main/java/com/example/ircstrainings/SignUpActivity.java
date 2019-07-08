@@ -1,10 +1,9 @@
 package com.example.ircstrainings;
 
-    import android.content.DialogInterface;
     import android.content.Intent;
-    import android.support.annotation.NonNull;
-    import android.support.v7.app.AlertDialog;
-    import android.support.v7.app.AppCompatActivity;
+    import androidx.annotation.NonNull;
+    import androidx.appcompat.app.AlertDialog;
+    import androidx.appcompat.app.AppCompatActivity;
     import android.os.Bundle;
     import android.util.Patterns;
     import android.view.View;
@@ -17,7 +16,6 @@ package com.example.ircstrainings;
     import com.google.firebase.auth.AuthResult;
     import com.google.firebase.auth.FirebaseAuth;
     import com.google.firebase.auth.FirebaseAuthUserCollisionException;
-    import com.google.firebase.auth.FirebaseUser;
 
 public class SignUpActivity extends AppCompatActivity implements View.OnClickListener {
 
