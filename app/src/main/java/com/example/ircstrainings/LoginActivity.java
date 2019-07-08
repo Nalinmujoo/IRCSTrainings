@@ -15,7 +15,7 @@ package com.example.ircstrainings;
     import com.google.firebase.auth.AuthResult;
     import com.google.firebase.auth.FirebaseAuth;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
     FirebaseAuth mAuth;
     EditText editTextEmail, editTextPassword;
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 progressBar.setVisibility(View.GONE);
                 if (task.isSuccessful()) {
                     finish();
-                    Intent intent = new Intent(MainActivity.this, DataInputActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, DataInputActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
                 } else {

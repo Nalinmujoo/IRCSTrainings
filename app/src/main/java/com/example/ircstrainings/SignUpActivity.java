@@ -2,7 +2,6 @@ package com.example.ircstrainings;
 
     import android.content.Intent;
     import androidx.annotation.NonNull;
-    import androidx.appcompat.app.AlertDialog;
     import androidx.appcompat.app.AppCompatActivity;
     import android.os.Bundle;
     import android.util.Patterns;
@@ -100,7 +99,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
 
             case R.id.textViewLogin:
                 finish();
-                startActivity(new Intent(this, MainActivity.class));
+                startActivity(new Intent(this, LoginActivity.class));
                 break;
         }
     }
