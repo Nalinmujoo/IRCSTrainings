@@ -86,13 +86,20 @@
     <string name="sign_up">Sign Up</string>
     <string name="already_have_an_account_login">Already have an account? Login</string>
     <string-array name="districts">
-        <item>Srikakulam</item>
-        <item>Vizianagaram</item>
-        <item>Vishakhapatnam</item>
+        <item>Ananthapuram</item>
+        <item>Chittoor</item>
         <item>East Godavari</item>
-        <item>West Godavari</item>
-        <item>Machilipatnam</item>
         <item>Guntur</item>
+        <item>Krishna</item>
+        <item>Kurnool</item>
+        <item>Prakasam</item>
+        <item>S.P.S.R.Nellore</item>
+        <item>Srikakulam</item>
+        <item>Vizayanagaram</item>
+        <item>Vishakhapatnam</item>
+        <item>West Godavari</item>
+        <item>Y.S.R.Kadapa</item>
+
         <item>Prakasam</item>
         <item>Nellore</item>
     </string-array>
