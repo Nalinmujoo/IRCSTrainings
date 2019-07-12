@@ -85,6 +85,8 @@
     <string name="don_t_have_account_sign_up">Don\'t have account? Sign Up</string>
     <string name="sign_up">Sign Up</string>
     <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="about">About App</string>
+    <string name="developed_by"><![CDATA[Developed By: \n \nNalin Mujoo  \nnalinmujoo@gmail.com \n \nIyer Rajkumar Varsha  \niyervarsha12@gmail.com]]></string>
     <string-array name="districts">
         <item>Ananthapuram</item>
         <item>Chittoor</item>
@@ -99,7 +101,5 @@
         <item>Vishakhapatnam</item>
         <item>West Godavari</item>
         <item>Y.S.R.Kadapa</item>
-        <item>Prakasam</item>
-        <item>Nellore</item>
     </string-array>
 </resources>

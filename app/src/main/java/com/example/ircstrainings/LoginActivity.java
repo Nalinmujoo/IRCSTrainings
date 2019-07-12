@@ -5,6 +5,8 @@ package com.example.ircstrainings;
     import androidx.appcompat.app.AppCompatActivity;
     import android.os.Bundle;
     import android.util.Patterns;
+    import android.view.Menu;
+    import android.view.MenuItem;
     import android.view.View;
     import android.widget.EditText;
     import android.widget.ProgressBar;
@@ -105,5 +107,21 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 userLogin();
                 break;
         }
+    }
+
+    //Overflow Menu
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_items,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if(item.getItemId()==R.id.about){
+            startActivity(new Intent(this, OverflowMenuActivity.class));
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
